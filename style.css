@@ -1,0 +1,100 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Poppins, sans-serif;
+}
+
+body {
+     height: 100vh;
+     text-align: center;
+     background: rgb(249, 250, 252);
+}
+
+.logo {
+     margin-top: 80px;
+}
+
+.header h1 {
+     padding: 16px 0;
+     font-size: 3rem;
+     font-weight: 600;
+}
+
+.subheading p {
+     font-size: 1.25rem;
+     font-weight: 400;
+     color: #6C727F;
+}
+
+.login-container {
+     display: flex;
+     flex-direction: column;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     background-color: #FFFFFF;
+     border-radius: 20px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+     box-sizing: border-box;
+     width: 552px;
+     margin-top: 60px;
+}
+
+.email-btn,
+.subscribe-btn {
+     text-align: center;
+     border-radius: 10px;
+     height: 50px;
+     margin-left: 24px;
+     margin-right: 24px;
+     margin-top: 24px;
+     font-size: 1rem;
+     font-weight: 600;
+}
+
+.email-btn {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(249, 250, 252); 
+     border: 1px solid rgb(234, 235, 238);
+     color: #6C727F;
+     padding-left: 24px;
+}
+
+.subscribe-btn {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #284BCE;
+     color: #FFFFFF;
+}
+
+.container-p p {
+     font-size: 0.875rem;
+     font-weight: 400;
+     margin-bottom: 24px;
+     margin-top: 24px;
+     color: #394150;
+}
+
+.author-info {
+     font-size: 14px;
+     text-align: center;
+     margin-top: 125px;
+     color: rgb(55, 65, 81);
+}
+
+.author-info a {
+     text-decoration: none;
+}
+
+@media (max-width: 640px) {
+     .header h1 {
+          font-size: 2rem;
+     }
+     .subheading p {
+          font-size: 1rem;
+     }
+}
